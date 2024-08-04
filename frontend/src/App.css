@@ -27,9 +27,3 @@
 .bg-gradient{
     background: linear-gradient(to right, #3C2A75, black );
 }
-.main-div{
-  border: 2px solid black;
-}
-.card-h{
-  height: 450px;
-}

@@ -37,14 +37,14 @@ function Banner() {
       </div>
 
       <div className="mx-auto md:px-20 px-4 ">
-        <h2 className="text-5xl font-medium md:mt-52 mt-96 text-center">
+        <h2 className="text-5xl font-medium md:mt-52 mt-64 text-center">
           Why choose skillUp
         </h2>
 
         <div className=" p-4 sm:p-10 text-white grid grid-rows-1">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 main-div">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-            <div className="bg-gradient rounded-lg card-h">
+            <div className="bg-gradient rounded-lg">
               <img src={img2} className="h-52 w-full " alt="" />
               <div className="p-4 ">
                 <h3 className="text-xl font-semibold mb-4">Hands-On Learning</h3>
@@ -53,7 +53,7 @@ function Banner() {
             </div>
 
             <div className="gap-6">
-              <div className="bg-gradient p-6 rounded-lg flex ">
+              <div className="bg-gradient p-6 rounded-lg flex h-52">
                 <div className="">
                   <h3 className="text-xl font-semibold mb-4 ">Real-World Skills</h3>
                   <p>Equip students with practical skills that go beyond textbooks, preparing them for real-world challenges and opportunities.</p>
@@ -62,13 +62,13 @@ function Banner() {
                   <img src={img3} className=" " alt="" />
                 </div>
               </div>
-              <div className="bg-gradient p-6 mt-5 rounded-lg">
+              <div className="bg-gradient p-6 mt-5 rounded-lg h-52">
                 <h3 className="text-xl font-semibold mb-4">Vibrant Community</h3>
                 <p>Join a thriving community of like-minded peers, educators, and experts, fostering collaboration and a supportive learning environment.</p>
               </div>
             </div>
 
-            <div className="bg-gradient rounded-lg card-h">
+            <div className="bg-gradient rounded-lg">
               <img src={img4} className=" h-64 w-full " alt="" />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-4">Expert Mentorship</h3>
