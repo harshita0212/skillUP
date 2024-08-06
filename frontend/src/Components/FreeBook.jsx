@@ -11,7 +11,7 @@ function FreeBook() {
     const getInventory = async () => {
       try {
         const response = await axios.get("/Stonex");
-        
+
         const data = response.data.filter((data) => data.category === "Free");
         console.log(data)
         setStonex(data);
