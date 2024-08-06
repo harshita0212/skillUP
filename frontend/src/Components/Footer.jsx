@@ -12,7 +12,8 @@ const Footer = () => {
         <a href="#skills" className="  mb-4">SKILLS</a>
         <a href="#login" className=' ' >LOGIN</a>
       </div>
-      <div className='mr-96'>
+
+      <div className='ml-10 mr-86'>
         <h3 className="mb-4 text-xl font-poppins ">Community</h3>
         <div className="flex flex-col space-y-4">
           <a href="https://instagram.com" className="flex items-center">

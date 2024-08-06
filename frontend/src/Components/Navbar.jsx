@@ -25,7 +25,7 @@ function Navbar() {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
               <li><Link to="/"> HOME </Link></li>
-              <li><a> ABOUT US </a></li>
+              <li><Link to="/About-us"> ABOUT US </Link></li>
               <li><Link to="/Resources"> RESOURCES </Link></li>
               <li><a> CONTACT US </a></li>
               <li><a> LOG IN </a></li>
@@ -36,7 +36,7 @@ function Navbar() {
         <div className="navbar-right hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li><Link to="/"> HOME </Link></li>
-            <li><a> ABOUT US </a></li>
+            <li><Link to="/About-us"> ABOUT US </Link></li>
             <li><Link to="/Resources"> RESOURCES </Link></li>
             <li><a> CONTACT US </a></li>
             <li><a> LOG IN </a></li>

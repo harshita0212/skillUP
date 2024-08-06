@@ -1,12 +1,12 @@
 import React from 'react';
-import Group from '../assets/Group.png';
-import Tech from '../assets/Tech.svg';
-import CC from '../assets/CC.svg';
-import PD from '../assets/PD.svg';
-import TextBoxWImg from './TextBoxWImg';
-import Bussiness from '../assets/Bussiness.svg';
+import Group from './assets/Group.png';
+import Tech from './assets/Tech.svg';
+import CC from './assets/CC.svg';
+import PD from './assets/PD.svg';
+import TextBoxWImg from './Components/TextBoxWImg';
+import Bussiness from './assets/Bussiness.svg';
 
-const Resources = () => {
+const ResourcesPage = () => {
   return (
     <div className='flex'>
       
@@ -49,4 +49,4 @@ const Resources = () => {
   )
 }
 
-export default Resources
+export default ResourcesPage;

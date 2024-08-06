@@ -19,7 +19,20 @@ export default {
         '180': '45rem',   // 720px
       },
       height: {
+        '102': '26rem',   // 432px
+        '108': '27rem',   // 432px
+        '120': '30rem',   // 480px
+        '132': '33rem',   // 528px
+        '144': '36rem',   // 576px
         '180': '45rem', // Define your custom height here
+      },
+      width: {
+        '102': '26rem',   // 432px
+        '108': '27rem',   // 432px
+        '120': '30rem',   // 480px
+        '132': '33rem',   // 528px
+        '144': '36rem',   // 576px
+        '180': '45rem',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
