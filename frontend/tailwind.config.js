@@ -33,6 +33,7 @@ export default {
         '132': '33rem',   // 528px
         '144': '36rem',   // 576px
         '180': '45rem',
+        '360': '90rem',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
