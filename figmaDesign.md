@@ -1,0 +1,1 @@
+https://www.figma.com/design/7xiuf63LBKpVPho8YsEDnE/skillUp?node-id=0-1&t=VBNAbNQKkwtqxOKO-1
