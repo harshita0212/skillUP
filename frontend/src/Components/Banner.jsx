@@ -44,7 +44,7 @@ function Banner() {
         <div className=" p-4 sm:p-10 text-white grid grid-rows-1">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-            <div className="bg-gradient rounded-lg">
+            <div className="bg-gradient w-96 rounded-lg">
               <img src={img2} className="h-52 w-full " alt="" />
               <div className="p-4 ">
                 <h3 className="text-xl font-semibold mb-4">Hands-On Learning</h3>
@@ -52,8 +52,8 @@ function Banner() {
               </div>
             </div>
 
-            <div className="gap-6">
-              <div className="bg-gradient p-6 rounded-lg flex h-52">
+            <div className="gap-6 -ml-20 flex-wrap items-center justify-center w-180">
+              <div className="bg-gradient flex justify-center align-items-center p-6 rounded-lg h-52">
                 <div className="">
                   <h3 className="text-xl font-semibold mb-4 ">Real-World Skills</h3>
                   <p>Equip students with practical skills that go beyond textbooks, preparing them for real-world challenges and opportunities.</p>
@@ -68,7 +68,7 @@ function Banner() {
               </div>
             </div>
 
-            <div className="bg-gradient rounded-lg">
+            <div className="bg-gradient w-96 ml-auto rounded-lg">
               <img src={img4} className=" h-64 w-full " alt="" />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-4">Expert Mentorship</h3>
