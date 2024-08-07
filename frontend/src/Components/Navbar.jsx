@@ -28,7 +28,7 @@ function Navbar() {
               <li><Link to="/About-us"> ABOUT US </Link></li>
               <li><Link to="/Resources"> RESOURCES </Link></li>
               <li><a> CONTACT US </a></li>
-              <li><a href='https://t.me/SkillUp360' target="_blank"> JOIN COMMUNITY </a></li>
+              <li><a href='tg://resolve?domain=SkillUp360' target="_blank"> JOIN COMMUNITY </a></li>
             </ul>
           </div>
           <a className="google-font logo">skillUp</a>
@@ -39,7 +39,7 @@ function Navbar() {
             <li><Link to="/About-us"> ABOUT US </Link></li>
             <li><Link to="/Resources"> RESOURCES </Link></li>
             <li><a > CONTACT US </a></li>
-            <li><a href='https://t.me/SkillUp360' target="_blank"> JOIN COMMUNITY </a></li>
+            <li><a href='tg://resolve?domain=SkillUp360' target="_blank"> JOIN COMMUNITY </a></li>
           </ul>
         </div>
       </div>

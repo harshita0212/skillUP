@@ -1,8 +1,9 @@
 import React from "react";
 import img from '../assets/OBJECTSboys.png'
-import img2 from '../assets/Frame1.png'
+import img2 from '../assets/Frame1.svg'
 import img3 from '../assets/Frame7.png'
-import img4 from '../assets/Frame4.png'
+import img4 from '../assets/Frame4.png';
+import img5 from '../assets/img5.svg';
 function Banner() {
   return (
     <>
@@ -44,16 +45,16 @@ function Banner() {
         <div className=" p-4 sm:p-10 text-white grid grid-rows-1">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-            <div className="bg-gradient w-96 rounded-lg">
-              <img src={img2} className="h-52 w-full " alt="" />
-              <div className="p-4 ">
-                <h3 className="text-xl font-semibold mb-4">Hands-On Learning</h3>
-                <p>Engage in project-based learning where students can build, create, and innovate, making education interactive and enjoyable.</p>
+            <div className="bg-gradient w-80 h-108 flex-wrap justify-center rounded-lg">
+              <img src={img2} className="h-44 mt-4 ml-5" alt="" />
+              <div className="p-4">
+                <h3 className="text-xl font-bold mb-4">Hands-On Learning</h3>
+                <p className="text-justify pr-5">Engage in project-based learning where students can build, create, and innovate, making education interactive and enjoyable.</p>
               </div>
             </div>
 
-            <div className="gap-6 -ml-20 flex-wrap items-center justify-center w-180">
-              <div className="bg-gradient flex justify-center align-items-center p-6 rounded-lg h-52">
+            <div className="gap-6 flex-wrap w-162 -ml-20 items-center justify-center">
+              <div className="bg-gradient flex justify-center align-items-center p-6 rounded-lg">
                 <div className="">
                   <h3 className="text-xl font-semibold mb-4 ">Real-World Skills</h3>
                   <p>Equip students with practical skills that go beyond textbooks, preparing them for real-world challenges and opportunities.</p>
@@ -62,17 +63,22 @@ function Banner() {
                   <img src={img3} className=" " alt="" />
                 </div>
               </div>
-              <div className="bg-gradient p-6 mt-5 rounded-lg h-52">
-                <h3 className="text-xl font-semibold mb-4">Vibrant Community</h3>
-                <p>Join a thriving community of like-minded peers, educators, and experts, fostering collaboration and a supportive learning environment.</p>
+              <div className="bg-gradient mt-2 flex justify-center items-center p-6 rounded-lg">
+                <div className="w-1/4 pb-10 -mt-14">
+                  <img src={img5} className="" alt="" />
+                </div>
+                <div className="w-3/4">
+                <h3 className="text-xl  font-semibold text-right mb-4">Vibrant Community</h3>
+                <p className="text-right">Join a thriving community of like-minded peers, educators, and experts, fostering collaboration and a supportive learning environment.</p>
+                </div>
               </div>
             </div>
 
-            <div className="bg-gradient w-96 ml-auto rounded-lg">
-              <img src={img4} className=" h-64 w-full " alt="" />
-              <div className="p-4">
-                <h3 className="text-xl font-semibold mb-4">Expert Mentorship</h3>
-                <p>Connect with industry leaders and professionals who provide guidance, insights, and mentorship, helping students navigate their career paths.</p>
+            <div className="bg-gradient ml-auto w-80 h-108 flex-wrap justify-center rounded-lg">
+              <img src={img4} className="h-56 mt-4 ml-10" alt="" />
+              <div className="p-4 -mt-5">
+                <h3 className="text-xl font-bold mb-4">Expert Mentorship</h3>
+                <p className="text-justify pr-5">Connect with industry leaders and professionals who provide guidance, insights, and mentorship, helping students navigate their career paths.</p>
               </div>
             </div>
           </div>
