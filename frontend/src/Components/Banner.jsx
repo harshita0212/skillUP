@@ -1,18 +1,21 @@
 import React from "react";
-import img from '../assets/OBJECTSboys.png'
-import img2 from '../assets/Frame1.svg'
-import img3 from '../assets/Frame7.png'
-import img4 from '../assets/Frame4.png';
-import img5 from '../assets/img5.svg';
+import img from "../assets/OBJECTSboys.png";
+import img2 from "../assets/Frame1.svg";
+import img3 from "../assets/Frame7.png";
+import img4 from "../assets/Frame4.png";
+import img5 from "../assets/img5.svg";
+import holisticDev from "../assets/holisticDev.svg";
+import scholarImg from "../assets/scholarImg.svg";
+import Join from "../assets/join.svg";
+
 function Banner() {
   return (
     <>
+      {/* Section 0 */}
       <div className="mx-auto md:px-20 px-4 flex flex-col md:flex-row banner-bg">
         <div className="order-2 md:order-1 md:w-1/2 w-full md:mt-32 mt-20  ">
           <div className="space-y-2 ">
-            <h1 className="text-6xl google-font">
-              HERE AT skillUp
-            </h1>
+            <h1 className="text-6xl google-font">HERE AT skillUp</h1>
             <h2 className="text-4xl google-font tagline">
               Learn, Grow and Develop.
             </h2>
@@ -30,76 +33,142 @@ function Banner() {
               <input type="text" className="grow " placeholder="Email" />
             </label>
           </div>
-          <button className="btn bg-pink-500 mt-5 border-none hover:bg-pink-300 duration-300 ">Get Started</button>
+          <button className="btn bg-pink-500 mt-5 border-none hover:bg-pink-300 duration-300 ">
+            Get Started
+          </button>
         </div>
         <div className="order-1 md:w-1/2 w-4/5 md:h-1/2 h-full md:m-20 banner-img">
           <img src={img} className="h-92 rounded-3xl md:pt-0 pt-16 " alt="" />
         </div>
       </div>
 
-      <div className="mx-auto md:px-20 px-4 ">
-        <h2 className="text-5xl font-medium md:mt-52 mt-64 text-center">
+      {/* Section 1 */}
+      <div className="mt-80 mx-auto md:px-20 px-4 ">
+        <h2 className="text-7xl text-black font-poppins font-bold md:mt-52 mt-64 text-center">
           Why choose skillUp
         </h2>
 
         <div className=" p-4 sm:p-10 text-white grid grid-rows-1">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-            <div className="bg-gradient w-80 h-108 flex-wrap justify-center rounded-lg">
+          <div className="grid place-items-center grid-cols-1 md:grid-cols-3 gap-2">
+            <div className="mr-auto bg-gradient w-80 h-108 flex-wrap justify-center rounded-2xl">
               <img src={img2} className="h-44 mt-4 ml-5" alt="" />
               <div className="p-4">
-                <h3 className="text-xl font-bold mb-4">Hands-On Learning</h3>
-                <p className="text-justify pr-5">Engage in project-based learning where students can build, create, and innovate, making education interactive and enjoyable.</p>
+                <h3 className="text-2xl font-poppins font-bold mb-2">
+                  Hands-On Learning
+                </h3>
+                <p className="text-justify font-poppins pr-5">
+                  Engage in project-based learning where students can build,
+                  create, and innovate, making education interactive and
+                  enjoyable.
+                </p>
               </div>
             </div>
 
-            <div className="gap-6 flex-wrap w-162 -ml-20 items-center justify-center">
-              <div className="bg-gradient flex justify-center align-items-center p-6 rounded-lg">
+            <div className="gap-6 flex-wrap w-178 items-center justify-center">
+              <div className="bg-gradient flex justify-center align-items-center pt-5 pl-6 pr-6 rounded-2xl">
                 <div className="">
-                  <h3 className="text-xl font-semibold mb-4 ">Real-World Skills</h3>
-                  <p>Equip students with practical skills that go beyond textbooks, preparing them for real-world challenges and opportunities.</p>
+                  <h3 className="text-2xl font-poppins font-bold mb-2 ">
+                    Real-World Skills
+                  </h3>
+                  <p className="font-poppins">
+                    Equip students with practical skills that go beyond
+                    textbooks, preparing them for real-world challenges and
+                    opportunities.
+                  </p>
                 </div>
-                <div className="">
+                <div className="-mb-6 w-132 ">
                   <img src={img3} className=" " alt="" />
                 </div>
               </div>
-              <div className="bg-gradient mt-2 flex justify-center items-center p-6 rounded-lg">
-                <div className="w-1/4 pb-10 -mt-14">
+              <div className="bg-gradient mt-2 flex justify-center items-center pr-8 pb-10 rounded-2xl">
+                <div className="w-180 pb-8 -mt-10">
                   <img src={img5} className="" alt="" />
                 </div>
-                <div className="w-3/4">
-                <h3 className="text-xl  font-semibold text-right mb-4">Vibrant Community</h3>
-                <p className="text-right">Join a thriving community of like-minded peers, educators, and experts, fostering collaboration and a supportive learning environment.</p>
+                <div className="">
+                  <h3 className="text-2xl font-poppins font-bold text-right mb-2">
+                    Vibrant Community
+                  </h3>
+                  <p className="font-poppins text-right">
+                    Join a thriving community of like-minded peers, educators,
+                    and experts, fostering collaboration and a supportive
+                    learning environment.
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-gradient ml-auto w-80 h-108 flex-wrap justify-center rounded-lg">
+            <div className="bg-gradient ml-auto w-80 h-108 flex-wrap justify-center rounded-2xl">
               <img src={img4} className="h-56 mt-4 ml-10" alt="" />
               <div className="p-4 -mt-5">
-                <h3 className="text-xl font-bold mb-4">Expert Mentorship</h3>
-                <p className="text-justify pr-5">Connect with industry leaders and professionals who provide guidance, insights, and mentorship, helping students navigate their career paths.</p>
+                <h3 className="text-xl font-poppins font-bold mb-2">
+                  Expert Mentorship
+                </h3>
+                <p className="text-justify font-poppins pr-5">
+                  Connect with industry leaders and professionals who provide
+                  guidance, insights, and mentorship, helping students navigate
+                  their career paths.
+                </p>
               </div>
             </div>
           </div>
 
-          <div className="pt-4 sm:pt-5 text-white flex">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6" >
-              <div className="bg-gradient p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4">Customized Curriculum</h3>
-                <p>Schools can integrate our tailored programs into their curriculum, enhancing the educational experience and meeting modern educational standards.</p>
+          <div className="pt-2 text-white flex">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+              <div className="bg-gradient flex justify-center items-center pl-6 rounded-2xl">
+                <div>
+                  <h3 className="text-3xl font-poppins font-bold mb-2">
+                    Customized Curriculum
+                  </h3>
+                  <p className="font-poppins">
+                    Schools can integrate our tailored programs into their
+                    curriculum, enhancing the educational experience and meeting
+                    modern educational standards.
+                  </p>
+                </div>
+
+                <div className="w-180 pt-16 -mt-10">
+                  <img src={scholarImg} alt="" />
+                </div>
               </div>
-              <div className="bg-gradient p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4">Holistic Development</h3>
-                <p>Focus on the overall growth of students by nurturing creativity, critical thinking, and problem-solving 21st-century skills that set them apart from the competition ensuring a bright future and a competitive edge in any field.</p>
+
+              <div className="bg-gradient flex justify-center items-center pr-8 rounded-2xl">
+                <div className="w-220 pt-16 ">
+                  <img src={holisticDev} alt="" />
+                </div>
+                <div className="">
+                  <h3 className="text-3xl font-poppins font-bold text-right mb-2">
+                    Holistic Development
+                  </h3>
+                  <p className="text-right font-poppins">
+                    Focus on the overall growth of students by nurturing
+                    creativity, critical thinking, and problem-solving
+                    21st-century skills that set them apart from the competition
+                    ensuring a bright future and a competitive edge in any
+                    field.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
+      {/* Section-3 */}
 
-
+      <div className="mb-10 mt-80 bg-black flex text-white font-Poppins h-220">
+        <div className=" w-144 mt-44 m-20">
+          <img src={Join} alt="aboutus_Img" />
+        </div>
+        <div className="w-50% mt-20">
+          <div className="text-5xl w-180 text-white font-Poppins font-bold pt-56">
+          JOIN OUR DAILY LIVE SESSIONS                                                 
+          </div>
+          <div className="text-lg h-10 w-132 text-justify pt-5">
+            <p>
+            Unlock your potential with SkillUp’s daily live sessions! Engage with expert instructors and fellow learners in real-time to enhance your soft skills. Our interactive sessions cover a variety of topics, from effective communication to leadership strategies, ensuring you gain practical insights and hands-on experience. Don’t miss out on the opportunity to ask questions, participate in discussions, and accelerate your professional growth. Join us every day and take a step closer to achieving your career goals!
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
