@@ -7,6 +7,7 @@ import img5 from "../assets/img5.svg";
 import holisticDev from "../assets/holisticDev.svg";
 import scholarImg from "../assets/scholarImg.svg";
 import Join from "../assets/join.svg";
+import Frame10 from "../assets/Frame10.svg";
 
 function Banner() {
   return (
@@ -43,7 +44,7 @@ function Banner() {
       </div>
 
       {/* Section 1 */}
-      <div className="mt-80 mx-auto md:px-20 px-4 ">
+      <div className="mt-80 mb-64 mx-auto md:px-20 px-4 ">
         <h2 className="text-7xl text-black font-poppins font-bold md:mt-52 mt-64 text-center">
           Why choose skillUp
         </h2>
@@ -154,7 +155,7 @@ function Banner() {
       </div>
       {/* Section-3 */}
 
-      <div className="mb-10 mt-80 bg-black flex text-white font-Poppins h-220">
+      <div className="mb-20 bg-black flex text-white font-Poppins h-220">
         <div className=" w-144 mt-44 m-20">
           <img src={Join} alt="aboutus_Img" />
         </div>
@@ -167,6 +168,32 @@ function Banner() {
             Unlock your potential with SkillUp’s daily live sessions! Engage with expert instructors and fellow learners in real-time to enhance your soft skills. Our interactive sessions cover a variety of topics, from effective communication to leadership strategies, ensuring you gain practical insights and hands-on experience. Don’t miss out on the opportunity to ask questions, participate in discussions, and accelerate your professional growth. Join us every day and take a step closer to achieving your career goals!
             </p>
           </div>
+        </div>
+      </div>
+
+      {/* Section-4 */}
+      <div>
+        <div className="mt-64 flex justify-center items-center font-poppins font-semibold text-black text-4xl">
+          <h3 className="w-96 text-center"> We are the people who make up skillUp </h3>
+        </div>
+        <div className="flex justify-between items-center text-black ml-56 m-20 mr-56">
+          <div>
+            <img src={Frame10} className="h-96"></img>
+            <h4 className="text-2xl text-center font-poppins font-bold">Udit Agrawal</h4>
+          </div>
+          <div>
+            <img src={Frame10} className="h-96"></img>
+            <h4 className="text-2xl text-center font-poppins font-bold">Shipra Agrawal</h4>
+          </div>
+          <div>
+            <img src={Frame10} className="h-96"></img>
+            <h4 className="text-2xl text-center font-poppins font-bold">Harshita Lalwani</h4>
+          </div>
+          <div>
+            <img src={Frame10} className="h-96"></img>
+            <h4 className="text-2xl text-center font-poppins font-bold">Deepak Vaishnav</h4>
+          </div>
+          
         </div>
       </div>
     </>
