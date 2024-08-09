@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import img from "../assets/OBJECTSboys.png";
 import img2 from "../assets/Frame1.svg";
 import img3 from "../assets/Frame7.png";
@@ -10,6 +11,7 @@ import Join from "../assets/join.svg";
 import Frame10 from "../assets/Frame10.svg";
 import uditImg from "../assets/uditImg.jpg";
 import harshitaImg from "../assets/harshitaImg.jpg";
+import shipraImg from "../assets/shipraImg.jpg";
 import studyingGirl from "../assets/sleepingGirl.svg";
 import hands from "../assets/hands.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -188,7 +190,7 @@ function Banner() {
             <h4 className="text-2xl text-center font-poppins font-bold">Udit Agrawal</h4>
           </div>
           <div>
-            <img src={Frame10} className="h-96"></img>
+            <img src={shipraImg} className="h-96"></img>
             <h4 className="text-2xl text-center font-poppins font-bold">Shipra Agrawal</h4>
           </div>
           <div>
@@ -202,6 +204,7 @@ function Banner() {
         </div>
       </div>
       {/* Section 5 */}
+      <section id="contact">
       <div className="mt-56 h-200 flex items-center mb-32">
         <div className="ml-20 w-50% pl-64">
           <div className="flex">
@@ -268,6 +271,7 @@ function Banner() {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }
