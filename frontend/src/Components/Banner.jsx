@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 import img from "../assets/OBJECTSboys.png";
 import img2 from "../assets/Frame1.svg";
 import img3 from "../assets/Frame7.png";
@@ -8,6 +9,13 @@ import holisticDev from "../assets/holisticDev.svg";
 import scholarImg from "../assets/scholarImg.svg";
 import Join from "../assets/join.svg";
 import Frame10 from "../assets/Frame10.svg";
+import uditImg from "../assets/uditImg.jpg";
+import harshitaImg from "../assets/harshitaImg.jpg";
+import shipraImg from "../assets/shipraImg.jpg";
+import studyingGirl from "../assets/sleepingGirl.svg";
+import hands from "../assets/hands.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faPhone , faEnvelope, faMapLocationDot} from '@fortawesome/free-solid-svg-icons';
 
 function Banner() {
   return (
@@ -178,24 +186,92 @@ function Banner() {
         </div>
         <div className="flex justify-between items-center text-black ml-56 m-20 mr-56">
           <div>
-            <img src={Frame10} className="h-96"></img>
+            <img src={uditImg} className="h-96"></img>
             <h4 className="text-2xl text-center font-poppins font-bold">Udit Agrawal</h4>
           </div>
           <div>
-            <img src={Frame10} className="h-96"></img>
+            <img src={shipraImg} className="h-96"></img>
             <h4 className="text-2xl text-center font-poppins font-bold">Shipra Agrawal</h4>
           </div>
           <div>
-            <img src={Frame10} className="h-96"></img>
+            <img src={harshitaImg} className="h-96"></img>
             <h4 className="text-2xl text-center font-poppins font-bold">Harshita Lalwani</h4>
           </div>
           <div>
             <img src={Frame10} className="h-96"></img>
             <h4 className="text-2xl text-center font-poppins font-bold">Deepak Vaishnav</h4>
           </div>
-          
         </div>
       </div>
+      {/* Section 5 */}
+      <section id="contact">
+      <div className="mt-56 h-200 flex items-center mb-32">
+        <div className="ml-20 w-50% pl-64">
+          <div className="flex">
+            <h3 className="font-poppints text-black font-semibold text-6xl w-64">Let's get in touch</h3>
+            <img src={hands} className="w-20 mt-12 -ml-4" alt="hands" />
+          </div>
+          <div className="mt-20">
+            <h6 className="font-poppints text-black font-semibold text-2xl w-56">Don’t  be afraid to
+            say hello to us!</h6>
+            <div className="mt-14 font-poppins">
+                <div className="flex flex-wrap w-44 items-center">
+                  <FontAwesomeIcon icon={faEnvelope} className="mr-2"/>
+                  <h6 className="font-semibold text-lg">Email</h6>
+                  <span className="ml-6">contact@skillup.com</span>
+                </div>
+                <div className="flex mt-2 flex-wrap w-44 items-center">
+                <FontAwesomeIcon icon={faPhone} className="mr-2"/>
+                  <h6 className=" font-semibold text-lg">Phone</h6>
+                  <span className="ml-6">+91 9835467289</span>
+                </div>
+                <div className="flex mt-2 flex-wrap w-96 items-center">
+                <FontAwesomeIcon icon={faMapLocationDot} className="mr-2"/>
+                  <h6 className="font-semibold text-lg">Office</h6>
+                  <span className="ml-6">W-9, Industrial Area, Near 200 Quarters, Yamunanagar, Haryana-135001</span>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-50% ml-64">
+          <div className="ml-12 w-96 -mb-2">
+            <img src={studyingGirl} alt="sleepingTextBookGirl" />
+          </div>
+          <div className="text-white font-poppins bg-black w-108 h-108 pt-6 rounded-lg" >
+          <div className=" p-8 rounded-lg">
+              <h2 className="text-white text-2xl mb-4">Contact Us</h2>
+              <form>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  className="bg-black mb-6 w-40 border-b-2 border-gray-500 text-white p-2 mb-2 rounded"
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="bg-black w-40 mb-6 ml-6 border-b-2 border-gray-500 text-white p-2 mb-2 rounded"
+                />
+                <input
+                  type="tel"
+                  placeholder="Phone Number"
+                  className="bg-black w-40 mb-6 border-b-2 border-gray-500 text-white p-2 mb-2 rounded"
+                />
+                <input
+                  placeholder="Message"
+                  className="bg-black w-full mb-6 border-b-2 border-gray-500 text-white p-2 mb-2 rounded"
+                ></input>
+                <button
+                  type="submit"
+                  className="bg-purple-600 mt-6  w-full text-white p-2 rounded hover:bg-purple-700"
+                >
+                  SUBMIT FORM
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
     </>
   );
 }

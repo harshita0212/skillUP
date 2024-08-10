@@ -6,20 +6,21 @@ import { createBrowserRouter , RouterProvider } from 'react-router-dom';
 import "./App.css";
 import Footer from './Components/Footer';
 import AboutUsPage from './AboutUsPage';
+import Chatbot from "./Components/ChatbotButton";
 
 function App() {
   const router  = createBrowserRouter([
     {
       path: '/',
-      element : <> <Navbar /> <Banner/> <Footer/></>,
+      element : <> <Navbar /> <Banner/> <Chatbot/> <Footer/></>,
     },
     {
       path: '/Resources',
-      element : <> <Navbar /> <ResourcesPage/> <Footer/> </>,
+      element : <> <Navbar /> <ResourcesPage/> <Chatbot/> <Footer/> </>,
     },
     {
       path: '/About-us',
-      element : <> <Navbar /> <AboutUsPage/> <Footer/> </>,
+      element : <> <Navbar /> <AboutUsPage/> <Chatbot/> <Footer/> </>,
     },
   ]);
   return (
