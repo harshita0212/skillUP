@@ -9,10 +9,10 @@ import img5 from "../assets/img5.svg";
 import holisticDev from "../assets/holisticDev.svg";
 import scholarImg from "../assets/scholarImg.svg";
 import Join from "../assets/join.svg";
-import Frame10 from "../assets/Frame10.svg";
 import uditImg from "../assets/uditImg.jpg";
 import harshitaImg from "../assets/harshitaImg.jpg";
 import shipraImg from "../assets/shipraImg.jpg";
+import deepakImg from "../assets/deepakImg.jpeg";
 import studyingGirl from "../assets/sleepingGirl.svg";
 import hands from "../assets/hands.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -209,7 +209,7 @@ function Banner() {
             <h4 className="text-2xl text-center font-poppins font-bold">Harshita Lalwani</h4>
           </div>
           <div>
-            <img src={Frame10} className="h-96"></img>
+            <img src={deepakImg} className="h-96"></img>
             <h4 className="text-2xl text-center font-poppins font-bold">Deepak Vaishnav</h4>
           </div>
         </div>
