@@ -1,5 +1,6 @@
-import React from "react";
-import Navbar from "./Navbar";
+import React , {useEffect , useRef} from "react";
+import {useLocation} from 'react-router-dom';
+import Navbar from "./Navbar.jsx";
 import img from "../assets/OBJECTSboys.png";
 import img2 from "../assets/Frame1.svg";
 import img3 from "../assets/Frame7.png";
@@ -18,6 +19,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faPhone , faEnvelope, faMapLocationDot} from '@fortawesome/free-solid-svg-icons';
 
 function Banner() {
+
+  const location = useLocation();
+  const contactRef = useRef(null);
+
+  useEffect(() => {
+    if( location.hash === '#contact' && contactRef.current){
+      contactRef.current.scrollIntoView({ behaviour : "smooth"});
+    }
+  } , [location]);
+
   return (
     <>
       {/* Section 0 */}
@@ -204,7 +215,7 @@ function Banner() {
         </div>
       </div>
       {/* Section 5 */}
-      <section id="contact">
+      <section id="contact" ref={contactRef}>
       <div className="mt-56 h-200 flex items-center mb-32">
         <div className="ml-20 w-50% pl-64">
           <div className="flex">

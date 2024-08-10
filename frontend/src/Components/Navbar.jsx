@@ -1,3 +1,4 @@
+import { faWindowRestore } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -27,7 +28,7 @@ function Navbar() {
               <li><Link to="/"> HOME </Link></li>
               <li><Link to="/About-us"> ABOUT US </Link></li>
               <li><Link to="/Resources"> RESOURCES </Link></li>
-              <li><a href="/#contact"> CONTACT US </a></li>
+              <li><Link to="/#contact" > CONTACT US </Link></li>
               <li><a href='tg://resolve?domain=SkillUp360' target="_blank"> JOIN COMMUNITY </a></li>
             </ul>
           </div>
@@ -38,7 +39,7 @@ function Navbar() {
             <li><Link to="/"> HOME </Link></li>
             <li><Link to="/About-us"> ABOUT US </Link></li>
             <li><Link to="/Resources"> RESOURCES </Link></li>
-            <li><a href="/#contact"> CONTACT US </a></li>
+            <li><Link to="/#contact"> CONTACT US </Link></li>
             <li><a href='tg://resolve?domain=SkillUp360' target="_blank"> JOIN COMMUNITY </a></li>
           </ul>
         </div>
