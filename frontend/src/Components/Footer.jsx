@@ -3,14 +3,15 @@ import Insta from '../assets/Insta.svg';
 import X from '../assets/X.svg';
 import Linkedin from '../assets/Linkedin.svg';
 import FB from '../assets/FB.svg'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div className="bg-black text-white h-80 py-8 px-6 flex justify-between ">
       <div className="flex flex-col font-semibold  mt-1 ml-12 ">
-        <a href="#home" className=" mb-4">HOME</a>
-        <a href="#skills" className="  mb-4">SKILLS</a>
-        <a href="#login" className=' ' >LOGIN</a>
+        <Link to="/#top" className='mb-4'> HOME </Link>
+        <a href="#skills" className=" mb-4">SKILLS</a>
+        <a href='tg://resolve?domain=SkillUp360' target="_blank">JOIN</a>
       </div>
 
       <div className='ml-10 mr-86'>
